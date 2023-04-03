@@ -4,18 +4,22 @@
 import math, time, sys, os
 import numpy as np
 
-# Gives how far we are in the rotation
 A, B, C = 0.0, 0.0, 0.0
 x, y, z = 0.0, 0.0, 0.0
 ooz = 0.0
 x, y = 0.0, 0.0
 
-cubeWidth = 10.0
-width = 160
-height = 40
-distanceFromCam = 60
+# Parameters.
+# Amount of points per half a side, so the more, the more calculated points per surface
+cubeWidth = 10
+# hight and width of printed image
+width = 170
+height = 50
+# distance from cam
+distanceFromCam = 30
 incrementSpeed = 0.6
-K1 = 40.0
+# amount of zoom
+K1 = 30
 
 
 # rotation around x axis
